@@ -1,14 +1,22 @@
-/* src/styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
+  font-family: "Rubik", sans-serif;
+  background-color: #f2f9f7;
   padding: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .App {
-  max-width: 800px;
-  margin: 0 auto;
+  width: 600px;
+  max-width: 600px;
+  margin: auto;
   background-color: #090f0f;
   color: white;
   padding: 50px;
@@ -17,10 +25,11 @@ body {
 }
 
 button {
-  background-color: #39bacc;
+  background-color: #39bbccc0;
   border: none;
   border-radius: 10px;
-  color: #030c0d;
+  font-weight: 500;
+  color: #f2f9f7;
   padding: 10px 26px;
   text-align: center;
   text-decoration: none;
@@ -29,13 +38,10 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   transition: 300ms ease-in-out;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 button:hover {
-  background-color: #96b3e4;
+  background-color: #3898be;
   transform: translateY(2px);
 }
 
