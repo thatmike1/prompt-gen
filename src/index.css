@@ -1,0 +1,77 @@
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #090f0f;
+  color: white;
+  padding: 50px;
+  border-radius: 35px;
+  box-shadow: 2px 3px 15px 0px rgba(0, 0, 0, 0.8);
+}
+
+button {
+  background-color: #39bacc;
+  border: none;
+  border-radius: 10px;
+  color: #030c0d;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:hover {
+  background-color: #96b3e4;
+  transform: translateY(2px);
+}
+
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #43d5aecb;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #43d5ad;
+}
